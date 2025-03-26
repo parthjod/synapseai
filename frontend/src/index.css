@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&family=Exo:wght@700&display=swap');
 
-/* Reset everything like a fresh pizza dough */
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +17,6 @@ body {
   padding-top: 60px;
 }
 
-/* Shooting stars because your website is out of this world 🌠 */
 @keyframes falling-stars {
   0% {
     transform: translateY(-10vh) translateX(0);
@@ -124,12 +123,10 @@ body {
   left: 0;
 }
 
-/* Prevent unexpected dropdown behavior */
 .navbar-nav .nav-item {
   position: relative;
 }
 
-/* Centering the content */
 .page {
   min-height: 80vh;
   display: flex;
@@ -161,7 +158,6 @@ p {
   color: #c0c0c0;
 }
 
-/* Footer - Keeping it structured */
 .footer {
   font-family: "Courier New", monospace;
   bottom: 0;
@@ -183,7 +179,6 @@ p {
   padding: 0;
 }
 
-/* Social icons */
 .social-icons {
   display: flex;
   gap: 1rem;
@@ -200,7 +195,6 @@ p {
   color: white;
 }
 
-/* Home section - Fun and casual */
 .home-container {
   font-family: "Comic Sans MS", cursive;
   display: flex;
@@ -212,7 +206,7 @@ p {
 }
 
 .page3 {
-  font-family: 'Exo', sans-serif; /* Futuristic AI-inspired font */
+  font-family: 'Exo', sans-serif;
   text-align: center;
   min-height: 80vh;
   display: flex;
@@ -220,8 +214,7 @@ p {
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  color: cyan; /* AI-style color */
-}
+  color: cyan;
 
 .page3 h2 {
   font-size: 2.8rem;
@@ -259,7 +252,6 @@ p {
   border-radius: 0.3rem;
 }
 
-/* About section - Elegant and timeless */
 .about-container {
   font-family: "Times New Roman", serif;
 }
@@ -320,14 +312,12 @@ p {
   border: 2px solid transparent;
 }
 
-/* Hover Effects */
 .workshop-card:hover {
   transform: scale(1.03);
   border-color: cyan;
   box-shadow: 0 0 20px cyan;
 }
 
-/* Floating effect */
 .workshop-card:hover {
   animation: floatEffect 3s infinite ease-in-out;
 }
@@ -354,7 +344,6 @@ p {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* Activate effect on hover */
 .workshop-card:hover::before {
   animation: matrixRain 1.5s linear infinite;
   opacity: 2;
