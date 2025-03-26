@@ -183,6 +183,7 @@ p {
   display: flex;
   gap: 1rem;
   align-items: flex-end;
+  gap: 20px;
 }
 
 .social-icons a {
@@ -215,6 +216,7 @@ p {
   align-items: center;
   padding: 2rem;
   color: cyan;
+}
 
 .page3 h2 {
   font-size: 2.8rem;
